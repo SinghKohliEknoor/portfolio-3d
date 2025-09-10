@@ -67,8 +67,10 @@ const Skills = ({ skills, activeSkill, animatingIcons, handleSkillClick }) => {
                 <div className="glassBody">
                   <div className="liquid" />
                   {animatingIcons.map((item, index) => {
-                    // Simple vertical stacking - each marble goes directly above the previous one
-                    const bottomPos = 12 + index * 52; // 52px spacing between marbles (48px marble + 4px gap)
+                    // Responsive spacing - tighter on mobile, wider on desktop
+                    const isMobile = window.innerWidth <= 768;
+                    const spacing = isMobile ? 36 : 52; // Tighter spacing on mobile
+                    const bottomPos = 12 + index * spacing;
 
                     return (
                       <div

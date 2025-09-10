@@ -17,12 +17,13 @@ const Hero = () => {
             Eknoor Singh <span>3D</span> Portfolio
           </h1>
           <p className="heroSub reveal from-right" data-reveal>
-            Full Stack Developer with expertise in building secure, cloud-ready
-            applications using React, Next.js, Node.js, and Supabase. UX/UI
-            prototyping, and front-end development. Proven expertise in
-            translating Figma mock-ups into pixel-perfect, responsive websites.
-            Passionate about driving innovation through Agile development,
-            CI/CD, and modern software architecture practices.
+            Aspiring Full Stack Developer with expertise in building secure,
+            cloud-ready applications using React, Next.js, Node.js, and
+            Supabase. UX/UI prototyping, and front-end development. Recently
+            Graduated From SAIT with a <span className="highlight-gpa">3.99 GPA</span>. Passionate about translating
+            Figma mock-ups into pixel-perfect, responsive websites and driving
+            innovation through Agile development, CI/CD, and modern software
+            architecture practices.
           </p>
           <div className="heroCtas reveal from-bottom" data-reveal>
             <a className="btn" href="#work" data-tilt>
